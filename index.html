@@ -28,8 +28,14 @@
   </script>
 </head>
 <body>
-  <div data-role="header" data-position="fixed" data-theme="a">
+  <div data-role="header" data-position="fixed" style="overflow:hidden;" data-theme="a">
     <h1>My Studios</h1>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="index.html" data-icon="home" data-ajax="false" data-iconpos="top" data-prefetch="true" data-transition="slide">My Studios</a></li>
+        <li><a href="allc.html" data-icon="calendar" data-ajax="false" data-iconpos="top" data-prefetch="true" data-transition="slide">All Studios</a></li>
+        <li><a href="cntct.html" data-icon="phone" data-ajax="false" data-iconpos="top" data-prefetch="true" data-transition="slide">Contact</a></li>
+      </div>
   </div>
   <div data-role="page" id="home" data-title="My Studios" data-theme="a">
     <div data-role="content" data-theme="a">
@@ -56,14 +62,5 @@
       <p>More filler!! Woo!</p>
     </div>
   </div>
-
-  <div data-role="footer" data-position="fixed" data-theme="a">
-    <div data-role="navbar">
-      <ul>
-        <li><a href="index.html" data-icon="home" data-iconpos="top" data-prefetch="true" data-transition="slide">My Studios</a></li>
-        <li><a href="#allc" data-icon="calendar" data-iconpos="top" data-prefetch="true" data-transition="slide">All Studios</a></li>
-        <li><a href="#cntct" data-icon="phone" data-iconpos="top" data-prefetch="true" data-transition="slide">Contact</a></li>
-      </div>
-    </div>
 </body>
 </html>
