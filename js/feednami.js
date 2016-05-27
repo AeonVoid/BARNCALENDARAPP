@@ -56,8 +56,9 @@ function loadEpisodes(url,id){
 
 window.onload = function(){
   loadEntries('https://bainbridgebarn.wildapricot.org/Kitchen-Arts-events/RSS','kitchen')
-  loadEntries('http://daringfireball.net/feeds/articles','daringfireball')
-  loadEntries('http://www.aljazeera.com/xml/rss/all.xml','aljazeera')
-  loadEpisodes('http://feeds.feedburner.com/todayinthepast','jjho')
-  loadEpisodes('http://feeds.rebuild.fm/rebuildfm','rebuildfm')
+  loadEntries('https://bainbridgebarn.wildapricot.org/eta-upcoming/RSS','ETA')
+  loadEntries('https://bainbridgebarn.wildapricot.org/Fiber-Arts/RSS','fiber arts')
+  loadEpisodes('https://bainbridgebarn.wildapricot.org/jfm-upcoming/RSS','jewelry')
+  loadEpisodes('https://bainbridgebarn.wildapricot.org/print-events/RSS','printmaking')
+  loadEpisodes('https://bainbridgebarn.wildapricot.org/Upcoming-Metal-Machining-Events/RSS','metalm')
 }
