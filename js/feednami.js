@@ -61,4 +61,8 @@ window.onload = function(){
   loadEpisodes('https://bainbridgebarn.wildapricot.org/jfm-upcoming/RSS','jewelry')
   loadEpisodes('https://bainbridgebarn.wildapricot.org/print-events/RSS','printmaking')
   loadEpisodes('https://bainbridgebarn.wildapricot.org/Upcoming-Metal-Machining-Events/RSS','metalm')
+  loadEntries('https://bainbridgebarn.wildapricot.org/Book-Arts/RSS','book')
+  loadEntries('https://bainbridgebarn.wildapricot.org/Upcoming-glass-events/RSS','glass')
+  loadEntries('https://bainbridgebarn.wildapricot.org/Woodworking/RSS','woodworking')
+  loadEntries('https://bainbridgebarn.wildapricot.org/Upcoming-writing-events/RSS','writing')
 }
