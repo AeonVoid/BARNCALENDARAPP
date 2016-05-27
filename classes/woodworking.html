@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BARN App Test Site</title>
+  <link rel="stylesheet" href="../themes/BARN.min.css" />
+	<link rel="stylesheet" href="../themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="https://storage.googleapis.com/feednami-static/js/feednami-client-v1.0.1.js"></script>
+  <script src="../js/feednami.js"></script>
+  <script>
+    $(function () {
+      $("[data-role='navbar']").navbar();
+      $("[data-role='header'], [data-role='footer']").toolbar();
+    });
+    $(document).on("pagecontainerchange", function() {
+      var current = $(".ui-page-active").jqmData("title");
+      $("[data-role='header'] h1").text(current);
+      $("[data-role='navbar'] a.ui-btn-active").removeClass("ui-btn-active");
+      $("[data-role='navbar'] a").each(function() {
+        if($(this).text() === current) {
+          $(this).addClass("ui-btn-active");
+        }
+      });
+    });
+  </script>
+
+</head>
+  <body>
+    <div data-role="header" data-position="fixed" style="overflow:hidden;" data-theme="a">
+      <h1>My Studios</h1>
+      <div data-role="navbar">
+        <ul>
+          <li><a href="../index.html" data-icon="home" data-ajax="false" data-iconpos="top" data-prefetch="true" data-transition="slide">My Studios</a></li>
+          <li><a href="../allc.html" data-icon="calendar" data-ajax="false" data-iconpos="top" data-prefetch="true" data-transition="slide">All Studios</a></li>
+          <li><a href="../cntct.html" data-icon="phone" data-ajax="false" data-iconpos="top" data-prefetch="true" data-transition="slide">Contact</a></li>
+        </div>
+    </div>
+    <div data-role="page" id="wdwrk" data-title="Woodworking" data-theme="a">
+      <div data-role="content" data-theme="a">
+        <div class="feeds">
+          <div id="woodworking" class="feed blog">
+            <div class="header">Woodworking Arts and Events</div>
+            <div class="loading">Loading...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
