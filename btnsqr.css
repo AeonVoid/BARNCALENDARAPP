@@ -1,3 +1,102 @@
+#btnBA {
+  color: rgba(0, 0, 0, 0);
+  background:url(icons/cooking.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+#btnETA {
+  color: rgba(0, 0, 0, 0);
+  background:url(icons/industrialdesign.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+#btnFA {
+  color: rgba(0, 0, 0, 0);
+  background:url(icons/fiberarts.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+#btnGA {
+  color: rgba(0, 0, 0, 0);
+  background:url(icons/cooking.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+#btnJ {
+  color: rgba(0, 0, 0, 0);
+  background:url(icons/jewelry-making.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+#btnMM {
+  color: rgba(0, 0, 0, 0);
+  background:url(icons/metalarts.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+#btnKA {
+  color: rgba(0, 0, 0, 0);
+  background:url(icons/cooking.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+#btnP {
+  color: rgba(0, 0, 0, 0);
+  background:url(icons/printmaking.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+#btnW {
+  color: rgba(0, 0, 0, 0);
+  background:url(icons/writing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+#btnWW {
+  color: rgba(0, 0, 0, 0);
+  background:url(icons/woodworking.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+#btnWR {
+  color: rgba(0, 0, 0, 0);
+  background:url(icons/writing.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+
 #btn1 {
   color: rgba(0, 0, 0, 0);
   height: 100px;
