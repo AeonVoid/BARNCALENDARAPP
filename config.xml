@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.BARN"
+        versionCode = "10"
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>BARN Events and Classes</name>
+
+    <description>
+        Classes and events for the Bainbridge Artisan Resource Network.
+    </description>
+
+    <author href="https://build.phonegap.com" email="rhain.zipeto@hotmail.com">
+        Rhain Zipeto
+    </author>
+
+    <icon src="../icons/barntag.jpg" platform="android" qualifier="ldpi" />
+    <icon src="../icons/barntag.jpg" platform="android" qualifier="mdpi" />
+    <icon src="../icons/barntag.jpg" platform="android" qualifier="hdpi" />
+    <icon src="../icons/barntag.jpg" platform="android" qualifier="xhdpi" />
+    <icon src="../icons/barntag.jpg" platform="android" qualifier="xxhdpi" />
+    <icon src="../icons/barntag.jpg" platform="android" qualifier="fr-xxhdpi" />
+
+    <preference name="permissions"             value="none"/>
+
+    <preference name="orientation"             value="portrait"/>
+    <preference name="target-device"           value="universal"/>
+    <preference name="fullscreen"              value="true"/>
+    <preference name="webviewbounce"           value="true"/>
+    <preference name="exit-on-suspend"         value="false"/>
+    <preference name="android-installLocation" value="auto"/>
+
+    <platform name="android"/>
+
+</widget>
