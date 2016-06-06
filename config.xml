@@ -17,6 +17,17 @@
         Rhain Zipeto
     </author>
 
+    <access origin="https://bainbridgebarn.wildapricot.org/Kitchen-Arts-events/RSS" />
+    <access origin="https://bainbridgebarn.wildapricot.org/eta-upcoming/RSS" />
+    <access origin="https://bainbridgebarn.wildapricot.org/Fiber-Arts/RSS" />
+    <access origin="https://bainbridgebarn.wildapricot.org/jfm-upcoming/RSS" />
+    <access origin="https://bainbridgebarn.wildapricot.org/print-events/RSS" />
+    <access origin="https://bainbridgebarn.wildapricot.org/Upcoming-Metal-Machining-Events/RSS" />
+    <access origin="https://bainbridgebarn.wildapricot.org/Book-Arts/RSS" />
+    <access origin="https://bainbridgebarn.wildapricot.org/Upcoming-glass-events/RSS" />
+    <access origin="https://bainbridgebarn.wildapricot.org/Woodworking/RSS" />
+    <access origin="https://bainbridgebarn.wildapricot.org/Upcoming-writing-events/RSS" />
+
     <icon src="../icons/barntag.jpg" platform="android" qualifier="ldpi" />
     <icon src="../icons/barntag.jpg" platform="android" qualifier="mdpi" />
     <icon src="../icons/barntag.jpg" platform="android" qualifier="hdpi" />
