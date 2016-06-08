@@ -3,7 +3,8 @@
   display:table;
 }
 
-#grey {
+//DEFAULT GREY BOX
+#gETA {
   color: gray;
   pointer-events: none;
   background:url(icons/grey.jpg);
@@ -11,7 +12,79 @@
   height: 100px;
   width: 100px;
 }
-
+#gKA {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#gFA {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#gJ {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#gP {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#gMM {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#gWW {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#gWR {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#gBA {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#gGA {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+//INDIVIDUAL ICONS
 #btnETA {
   color: rgba(0, 0, 0, 0);
   background:url(icons/tech.jpg);
@@ -111,8 +184,3 @@
   width: 100px;
 }
 
-#btn1 {
-  color: rgba(0, 0, 0, 0);
-  height: 100px;
-  width: 100px;
-}
