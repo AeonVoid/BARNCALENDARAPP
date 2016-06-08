@@ -12,23 +12,30 @@ http://stackoverflow.com/questions/1164635/how-to-enable-or-disable-an-anchor-us
 
 
 
-    <script type="text/javascript">
-      window.onload = function () {
-        var input = document.querySelector('input[type=checkbox]');
+  <script>
+  localStorage.setItem("base", "grey");
+  localStorage.KA = "grey";
+  localStorage.setItem("ETA", "btnETA");
+  localStorage.FA = "grey";
+  localStorage.J = "grey";
+  localStorage.P = "grey";
+  localStorage.MM = "grey";
+  localStorage.WW = "grey";
+  localStorage.WR = "grey";
+  localStorage.BA = "grey";
+  localStorage.GA = "grey";
+  </script>
 
-        function check() {
-          var a = input.checked ? "checked" : "not checked";
-          document.getElementById('check1').innerHTML = 'check1 ' + a;
-          localStorage.setItem("a", "checked");
-        }
-        input.onclick = check;
-        check();
-        if a == "checked"
-        {
-          document.getElementById('grey').id = 'btnETA';
-        }
-      }
-    </script>
+  <script>
+  document.getElementById("doit").onclick = function() {myFunction()};
+  function myFunction() {
+    document.getElementById(localStorage.getItem("base")).id = localStorage.getItem("ETA");
+    if (localStorage.getItem("ETA") === "btnETA")
+    {
+      localStorage.setItem("ETA", "grey");
+    }
+  }
+  </script>
 
 
 LOOK INTO LOCAL STORAGE ON W3 SCHOOLS WEBSITE
