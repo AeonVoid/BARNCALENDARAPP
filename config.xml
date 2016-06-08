@@ -26,7 +26,7 @@
     <icon src="../icons/barntag.jpg" platform="android" qualifier="fr-xxhdpi" />
 
 
-    <preference name="phonegap-version"           value="cli-5.2.0" />
+    <preference name="phonegap-version"        value="cli-5.2.0" />
     <preference name="orientation"             value="portrait"/>
     <preference name="target-device"           value="universal"/>
     <preference name="fullscreen"              value="true"/>
