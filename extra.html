@@ -1,0 +1,65 @@
+ALL MY EXTRA STUFF
+
+
+<a href="classes/kitchen.html" data-role="button" data-ajax="false" data-inline="true" id="KA"></a>
+      <a href="classes/ETA.html" data-role="button" data-ajax="false" data-inline="true" id="ETA"></a>
+      <br>
+      <a href="classes/fiber.html" data-role="button" data-ajax="false" data-inline="true" id="FA"></a>
+      <a href="classes/jewelry.html" data-role="button" data-ajax="false" data-inline="true" id="J"></a>
+      <br>
+      <a href="classes/printmaking.html" data-role="button" data-ajax="false" data-inline="true" id="P"></a>
+      <a href="classes/metalm.html" data-role="button" data-ajax="false" data-inline="true" id="MM"></a>
+      <br>
+      <a href="classes/woodworking.html" data-role="button" data-ajax="false" data-inline="true" id="WW"></a>
+      <a href="classes/writing.html" data-role="button" data-ajax="false" data-inline="true" id="WR"></a>
+      <br>
+      <a href="classes/book-arts.html" data-role="button" data-ajax="false" data-inline="true" id="BA"></a>
+      <a href="classes/glass-arts.html" data-role="button" data-ajax="false" data-inline="true" id="GA"></a>
+      </div>
+  </div>
+
+  <script>
+  localStorage.setItem("ETA", "gETA");
+  localStorage.setItem("KA", "gKA");
+  localStorage.setItem("FA", "gFA");
+  localStorage.setItem("J", "gJ");
+  localStorage.setItem("P", "gP");
+  localStorage.setItem("MM", "gMM");
+  localStorage.setItem("WW", "gWW");
+  localStorage.setItem("WR", "gWR");
+  localStorage.setItem("BA", "gBA");
+  localStorage.setItem("GA", "gGA");
+  </script>
+
+  <script>
+    document.getElementById("ETA").id = localStorage.getItem("ETA");
+    document.getElementById("KA").id = localStorage.getItem("KA");
+    document.getElementById("FA").id = localStorage.getItem("FA");
+    document.getElementById("J").id = localStorage.getItem("J");
+    document.getElementById("P").id = localStorage.getItem("P");
+    document.getElementById("MM").id = localStorage.getItem("MM");
+    document.getElementById("WW").id = localStorage.getItem("WW");
+    document.getElementById("WR").id = localStorage.getItem("WR");
+    document.getElementById("BA").id = localStorage.getItem("BA");
+    document.getElementById("GA").id = localStorage.getItem("GA");
+  </script>
+  
+  
+  
+  
+  
+          <button id="add" data-inline="true" onclick="addT()">Add to My Studios</button>
+        <button id="remove" data-inline="true" onclick="removeT()">Remove from My Studios</button>
+      </div>
+    </div>
+    <script>
+    document.getElementById("add").onclick = function() {addT()};
+    function addT() {
+      localStorage.setItem("ETA", "btnETA");
+    }
+
+    document.getElementById("remove").onclick = function() {removeT()};
+    function removeT() {
+      localStorage.setItem("ETA", "gETA");
+    }
+    </script>
