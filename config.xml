@@ -17,7 +17,6 @@
         Rhain Zipeto
     </author>
 
-    <access origin="*" />
 
     <icon src="../icons/barntag.jpg" platform="android" qualifier="ldpi" />
     <icon src="../icons/barntag.jpg" platform="android" qualifier="mdpi" />
@@ -26,7 +25,6 @@
     <icon src="../icons/barntag.jpg" platform="android" qualifier="xxhdpi" />
     <icon src="../icons/barntag.jpg" platform="android" qualifier="fr-xxhdpi" />
 
-    <preference name="permissions"             value="none"/>
 
     <preference name="phonegap-version"           value="cli-5.2.0" />
     <preference name="orientation"             value="portrait"/>
@@ -36,6 +34,8 @@
     <preference name="exit-on-suspend"         value="false"/>
     <preference name="android-installLocation" value="auto"/>
 
+    <access origin="*" />
+    
     <platform name="android"/>
 
 </widget>
