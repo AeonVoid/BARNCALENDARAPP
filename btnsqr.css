@@ -12,15 +12,6 @@
   width: 100px;
 }
 
-#btnBA {
-  color: rgba(0, 0, 0, 0);
-  background:url(icons/cooking.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100px;
-  width: 100px;
-}
-
 #btnETA {
   color: rgba(0, 0, 0, 0);
   background:url(icons/industrialdesign.jpg);
@@ -33,15 +24,6 @@
 #btnFA {
   color: rgba(0, 0, 0, 0);
   background:url(icons/fiberarts.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100px;
-  width: 100px;
-}
-
-#btnGA {
-  color: rgba(0, 0, 0, 0);
-  background:url(icons/cooking.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 100px;
