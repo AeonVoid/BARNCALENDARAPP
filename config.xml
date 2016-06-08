@@ -30,9 +30,10 @@
     <preference name="orientation"             value="portrait"/>
     <preference name="target-device"           value="universal"/>
     <preference name="fullscreen"              value="true"/>
-    <preference name="webviewbounce"           value="true"/>
     <preference name="exit-on-suspend"         value="false"/>
     <preference name="android-installLocation" value="auto"/>
+
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
 
     <access origin="*" />
     
