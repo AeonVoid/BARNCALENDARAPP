@@ -183,4 +183,84 @@
   height: 100px;
   width: 100px;
 }
-
+//BOX INIT
+#ETA {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#KA {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#FA {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#J {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#P {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#MM {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#WW {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#WR {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#BA {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
+#GA {
+  color: gray;
+  pointer-events: none;
+  background:url(icons/grey.jpg);
+  background-size: 100%;
+  height: 100px;
+  width: 100px;
+}
