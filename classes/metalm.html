@@ -49,15 +49,19 @@
             <div class="loading">Loading...</div>
           </div>
         </div>
-        <form>
-          <fieldset data-role="controlgroup" data-type="vertical">
-            <input type="checkbox" name="checkbox-choice-v-2" id="check1">
-            <label for="check1">Add to My Studios</label>
-          </fieldset>
-        </form>
+          <button id="add" data-inline="true" onclick="addT()">Add to My Studios</button>
+        <button id="remove" data-inline="true" onclick="removeT()">Remove from My Studios</button>
       </div>
     </div>
-
-
+    <script>
+    document.getElementById("add").onclick = function() {addT()};
+    function addT() {
+      localStorage.setItem("MM", "btnMM");
+    }
+    document.getElementById("remove").onclick = function() {removeT()};
+    function removeT() {
+      localStorage.setItem("MM", "gMM");
+    }
+    </script>
   </body>
 </html>
